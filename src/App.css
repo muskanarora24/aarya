@@ -1,0 +1,421 @@
+/* navbar section */
+
+.Navbar{
+    background-color: black;
+    height: 60px;
+    
+    /* position: fixed; 
+    top: 0px; 
+    width: 100%; 
+    z-index: 1000;  */
+}
+
+.navbar-logo{
+    height: 50px;
+    margin-top:-10px;
+}
+.rent-logo{
+    height: 20px;
+    margin-top:-20px;
+    width: 65%;
+}
+.navbar-btn{
+    margin-right: 2%;
+}
+a{
+    text-decoration: none;
+}
+.menu-bar-ul {
+    white-space: nowrap; 
+    overflow-x: auto; 
+    margin-right: auto; 
+    color:white;
+    /* padding :15px; */
+    padding-left: 0px;
+}
+
+.container-fluid {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: -20px;
+    
+}
+
+.container-fluid1 {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: -10px;
+    
+}
+
+.menu-bar-ul li {
+    display: inline; 
+    margin-right: 10px; 
+}
+.menu-bar-ul li::-webkit-scrollbar {
+    display: none;
+}
+
+.menu-bar-ul li a {
+    color: white; 
+}
+
+.menu-bar-ul li .active-link {
+    color: #DC143C;
+}
+
+.menu-bar-ul::-webkit-scrollbar {
+    display: none;
+}
+
+.related-img{
+    margin-top :100px;
+    margin-left: 20px;
+    color:white;
+}
+.related-img h1 {
+    font-size: 24px; 
+    font-weight: bold; 
+}
+ 
+
+/* end */
+
+/* login.jsx */
+
+.center {
+    color: #f9f9f9;
+    align-content: center;
+}
+.login-btn{ 
+    width:100%;
+    margin: 1%;
+    padding:1.5%;
+}
+
+.login-btn:hover{ 
+    transform: scale(1.1);
+}
+
+.login-dis{
+    font-size:12px;
+    text-align: center;
+}
+
+.secondlogo{
+    width: 100%;
+}
+.nav-pills .nav-link.active {
+    color: black;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+}
+
+.nav-pills .nav-link {
+    color: #202020;
+    border-bottom: 2px solid transparent; /* Initially set all tabs to have transparent underline */
+}
+#holder::placeholder{
+    color: rgb(255, 255, 255);
+}
+/* .btn-close{
+    background-color:white;
+} */
+
+
+#mydiv {
+    position:fixed;
+    top: 50%;
+    left: 45%;
+    width:40em;
+    height:18em;
+    margin-top: -9em;
+    margin-left: -15em;
+}
+
+/* end */
+
+/* home.jsx */
+
+.home-body{
+    color: #f9f9f9;
+    overflow: hidden;
+}
+
+.Slideshow{
+    width:100%;
+}
+
+
+.main-card{
+    left: 50%;
+    background-color: #040714;
+    margin: 6% 1%;
+    padding: auto;
+    border-radius: 25px;
+}
+
+.main-card:hover{
+    transform: scale(1.15);
+}
+
+div.scroll-container {
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+.scroll-container::-webkit-scrollbar {
+    display: none;
+}
+
+.card-img{
+    height: 200px;
+}
+
+.hovervideoplayer{
+    border-radius: 25px;
+    width:100%;
+    
+}
+
+
+.movie-heading{
+    margin:1%;
+    font-size:20px;
+    font-weight: bold;
+    color:white
+}
+
+.movie-card{
+    margin:2%; 
+}
+
+.movie-card:hover{
+    transform: scale(1.05);
+}
+
+
+
+.menu-bar{
+        text-decoration: none; 
+        margin-right: auto;
+        padding-left: 5%;
+}
+.menu-bar-ul{
+    display: flex;
+}
+.menu-bar-ul li{
+    padding: 10px 20px 10px 10px;
+}    
+
+/* Subscription */
+
+.card-deck-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-container {
+    text-align: left;
+    width: 30%;
+    flex-basis: 30%;
+    margin-bottom: 20px;
+    
+}
+
+.black-background {
+    background-color: black;
+}
+
+.card-list {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.black-card {
+    background-color: black;
+}
+
+.card-header-custom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: red;
+  }
+
+/* end8 */
+
+/* detail*/
+.loader-set{
+    margin-top: 25px;
+    position: relative;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+}
+.custom-nav {
+    display: flex;
+    background-color: #040714;
+    color:white;
+    height: 50px;
+    text-align: center;
+}
+
+.custom-nav .nav-item {
+    flex: 1;
+    text-align: center;
+    font-size: x-large;
+}
+
+.nav-link {
+    display: block;
+    padding: 0px;
+    cursor: pointer;
+    border-radius: 10px; 
+
+}
+
+.tab-pane {
+    display: none;
+}
+
+.tab-pane.active {
+    display: block;
+} 
+.selected{
+    border-bottom: 2px solid #961010;
+}
+
+/*   continue-watching  */
+
+.continue-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+}
+
+/* RENT */
+.rent-price {
+    position: absolute;
+    top: 7%;
+    left: 90%;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #DC143C;
+    color:white;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 23px;
+    z-index: 1;
+}
+
+/* END */
+/* language */
+
+/* .drop-down {
+    display: none;
+    position: absolute;
+    width:8%;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    list-style-type: none;
+    z-index: 1;
+}
+
+.drop-down.show {
+    display: block;
+}
+
+.drop-down li{
+    padding-bottom: 5px;
+}
+
+.drop-down li:active{
+    background-color:lightblue;
+} */
+
+
+/* end */
+
+@media only screen and (max-width: 1100px){
+    #mydiv{
+        width:30em;
+        left:50%;
+    }
+    .main-card{
+        margin-top:10%;
+    }
+    .movie-card{
+        margin: 10% 0%;
+    }
+    .movie-heading{
+        margin:1%;
+        font-size:15px;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width: 770px){
+    #mydiv{
+        width:20em;
+        left:70%;
+    }
+    .main-card{
+        left: 0;
+    }
+    .movie-card{
+        margin: 10% 0%;
+    }
+    .movie-heading{
+        margin:1%;
+        font-size:15px;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    #mydiv{
+        width:15em;
+        left:87%;
+    }
+    .main-card{
+        left: 0;
+    }
+    .movie-card{
+        margin: 10% 0%;
+    }
+    .movie-heading{
+        margin:1%;
+        font-size:15px;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 290px){
+    #mydiv{
+        width:15em;
+        left:95%;
+    }
+    .main-card{
+        left: 0;
+    }
+    .movie-card{
+        margin: 10% 0%;
+    }
+    .movie-heading{
+        margin:1%;
+        font-size:15px;
+        font-weight: bold;
+        text-align: center;
+    }
+}
